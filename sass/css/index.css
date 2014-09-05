@@ -1,0 +1,82 @@
+@charset "UTF-8";
+/* 颜色 */
+.blue1 {
+  background-color: #3498DB; }
+
+.blue2 {
+  background-color: #2980B9; }
+
+.green1 {
+  background-color: #2ECC71; }
+
+.green2 {
+  background-color: #27AE60; }
+
+.green3 {
+  background-color: #1ABC9C; }
+
+.green4 {
+  background-color: #16A085; }
+
+.purple1 {
+  background-color: #9B59B6; }
+
+.purple2 {
+  background-color: #8E44AD; }
+
+.gray1 {
+  background-color: #ECF0F1; }
+
+.gray2 {
+  background-color: #BDC3C7; }
+
+.gray3 {
+  background-color: #95A5A6; }
+
+.gray4 {
+  background-color: #7F8C8D; }
+
+.black1 {
+  background-color: #34495E; }
+
+.black2 {
+  background-color: #2C3E50; }
+
+.yellow1 {
+  background-color: #F1C40F; }
+
+.yellow2 {
+  background-color: #F39C12; }
+
+.orange1 {
+  background-color: #E67E22; }
+
+.orange2 {
+  background-color: #D35400; }
+
+.red1 {
+  background-color: #E74C3C; }
+
+.red2 {
+  background-color: #C0392B; }
+
+/* 颜色 end */
+/* 通常 */
+body {
+  background: #eee; }
+
+.mkq-list {
+  list-style: none;
+  overflow: hidden; }
+
+.mkq-box {
+  width: 120px;
+  height: 60px;
+  float: left;
+  display: inline-block;
+  text-align: center;
+  line-height: 30px; }
+
+/* 通常 end */
+
+/*# sourceMappingURL=index.css.map */

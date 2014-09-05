@@ -1,0 +1,131 @@
+// 定义颜色
+// 蓝
+$blue1: #3498DB;
+// 蓝-深
+$blue2: #2980B9;
+
+// 绿-嫩
+$green1: #2ECC71;
+// 绿-嫩-深
+$green2: #27AE60;
+// 绿-墨
+$green3: #1ABC9C;
+// 绿-墨-深
+$green4: #16A085;
+
+// 紫
+$purple1: #9B59B6;
+// 紫-深
+$purple2: #8E44AD;
+
+// 灰-近白
+$gray1: #ECF0F1;
+// 灰-浅
+$gray2: #BDC3C7;
+// 灰-深
+$gray3: #95A5A6;
+// 灰-近黑
+$gray4: #7F8C8D;
+
+// 黑-墨
+$black1: #34495E;
+// 黑-墨-深
+$black2: #2C3E50;
+
+// 黄
+$yellow1: #F1C40F;
+// 黄-深
+$yellow2: #F39C12;
+
+// 橘
+$orange1: #E67E22;
+// 橘-深
+$orange2: #D35400;
+
+// 红
+$red1: #E74C3C;
+// 红-深
+$red2: #C0392B;
+// 定义颜色 end
+
+/* 颜色 */
+.blue1 {
+  background-color: $blue1;
+}
+.blue2 {
+  background-color: $blue2;
+}
+.green1 {
+  background-color: $green1;
+}
+.green2 {
+  background-color: $green2;
+}
+.green3 {
+  background-color: $green3;
+}
+.green4 {
+  background-color: $green4;
+}
+.purple1 {
+  background-color: $purple1;
+}
+.purple2 {
+  background-color: $purple2;
+}
+.gray1 {
+  background-color: $gray1;
+}
+.gray2 {
+  background-color: $gray2;
+}
+.gray3 {
+  background-color: $gray3;
+}
+.gray4 {
+  background-color: $gray4;
+}
+.black1 {
+  background-color: $black1;
+}
+.black2 {
+  background-color: $black2;
+}
+.yellow1 {
+  background-color: $yellow1;
+}
+.yellow2 {
+  background-color: $yellow2;
+}
+.orange1 {
+  background-color: $orange1;
+}
+.orange2 {
+  background-color: $orange2;
+}
+.red1 {
+  background-color: $red1;
+}
+.red2 {
+  background-color: $red2;
+}
+/* 颜色 end */
+
+/* 通常 */
+body {
+  background: #eee;
+}
+.mkq-list {
+  list-style:none;
+  overflow: hidden;
+}
+.mkq-box {
+  $height: 60px;
+  width: 120px;
+  height: $height;
+  float: left;
+  display: inline-block;
+  text-align: center;
+  line-height: $height/2;
+}
+/* 通常 end */
