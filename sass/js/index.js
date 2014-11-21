@@ -11,6 +11,7 @@ $listColorChild.each(function(e) {
   var colorRgb = getHexBgColor($this);
   $(this).html('$' + colorName + '<br>' + colorRgb);
 });
+// rgb转为hex颜色格式
 function getHexBgColor($bgColorEle) {
   var rgb = $bgColorEle.css('background-color');
     rgb = rgb.match(/^rgb\((\d+),\s*(\d+),\s*(\d+)\)$/);
@@ -21,3 +22,4 @@ function getHexBgColor($bgColorEle) {
   return rgb;
 }
 /* 显示名字 end */
+
